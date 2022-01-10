@@ -1,0 +1,22 @@
+
+
+import turtle
+#Draw a square
+turtle.bgcolor("black")
+turtle.pencolor("red")
+turtle.pensize(50)
+turtle.forward(150)
+turtle.right(90)
+turtle.forward(150)
+turtle.right(90)
+turtle.forward(150)
+turtle.right(90)
+turtle.forward(150)
+turtle.clear()  # clear the screen to start with circle
+#Draw a circle
+for colours in ["red","yellow","green","blue","orange","pink"]:
+    turtle.color(colours)   # taking colours from the list mentioned above in a for loop
+    turtle.circle(150)
+    turtle.left(60)         #moving it by 60 degrees
+
+turtle.done()
